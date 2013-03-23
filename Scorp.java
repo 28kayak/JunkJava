@@ -1,7 +1,8 @@
 
 public class Scorp
 {
-	 int x = 555;
+ 	 static int x = 555;
+ 	 //
 	 void printX()
 	 {
 		 System.out.println("print x"); 
@@ -11,5 +12,10 @@ public class Scorp
 	 {
 		 System.out.printf("main: x = %d", x);
 		 //ERROR: can not make a static reference to the non-static field x 
+		 
+		 //change to static int x = 555 in line 4, the error is disappeared.
+		 //HYPOSIS: class variable will be not stored on the heap?? 
+		 //         only variables that have "static" notation will be stored 
+		 //         in the heap area. that is why printf gave me an error?
 	 }
 }
