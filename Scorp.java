@@ -15,6 +15,7 @@ public class Scorp
 		 
 		 //change to static int x = 555 in line 4, the error is disappeared.
 		 //HYPOSIS: class variable will be not stored on the heap?? 
+		 //         even though class variable has the same lifetime with static variable???
 		 //         only variables that have "static" notation will be stored 
 		 //         in the heap area. that is why printf gave me an error?
 	 }
