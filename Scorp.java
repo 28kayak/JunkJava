@@ -17,6 +17,6 @@ public class Scorp
 		 //HYPOSIS: class variable will be not stored on the heap?? 
 		 //         even though class variable has the same lifetime with static variable???
 		 //         only variables that have "static" notation will be stored 
-		 //         in the heap area. that is why printf gave me an error?
+		 //         on the heap area. that is why printf gave me an error?
 	 }
 }
